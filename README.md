@@ -31,13 +31,6 @@ It supports product management, order processing, stock control, and order statu
 
 ---
 
-## ⚙️ Installation & Run Guide
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Aliissomeoneelse/ecommerce-order-management.git
-cd ecommerce-order-management
-
 📦 API Endpoints
 | Method   | Endpoint                                   | Description         |
 | -------- | ------------------------------------------ | ------------------- |
@@ -49,3 +42,13 @@ cd ecommerce-order-management
 | `POST`   | `/api/orders`                              | Create new order    |
 | `PUT`    | `/api/orders/{id}/status?status=CONFIRMED` | Change order status |
 | `DELETE` | `/api/orders/{id}`                         | Cancel order        |
+
+---
+
+## ⚙️ Installation & Run Guide
+
+### Clone the repository
+```bash
+git clone https://github.com/Aliissomeoneelse/ecommerce-order-management.git
+cd ecommerce-order-management
+

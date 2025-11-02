@@ -37,3 +37,15 @@ It supports product management, order processing, stock control, and order statu
 ```bash
 git clone https://github.com/Aliissomeoneelse/ecommerce-order-management.git
 cd ecommerce-order-management
+
+📦 API Endpoints
+| Method   | Endpoint                                   | Description         |
+| -------- | ------------------------------------------ | ------------------- |
+| `GET`    | `/api/products`                            | List all products   |
+| `POST`   | `/api/products`                            | Create new product  |
+| `PUT`    | `/api/products/{id}`                       | Update product      |
+| `DELETE` | `/api/products/{id}`                       | Deactivate product  |
+| `GET`    | `/api/orders`                              | List all orders     |
+| `POST`   | `/api/orders`                              | Create new order    |
+| `PUT`    | `/api/orders/{id}/status?status=CONFIRMED` | Change order status |
+| `DELETE` | `/api/orders/{id}`                         | Cancel order        |
